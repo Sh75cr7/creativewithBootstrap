@@ -6,10 +6,28 @@
     --primary:#5956E8;
     --black:#181818;
     --white:#FFFFFF;
+    --pera: #color:rgba(24, 24, 24, .7);
    
 }
 body{
     font-family: "Inter", sans-serif;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+font-weight: 700;
+font-size: 40px;
+color: var(--black);
+}
+.title p{
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: var(--pera);
+width: 542px;
+margin: 0 auto;
+margin-top: 20px;
 }
 nav{
     padding: 34px 0px;
@@ -61,3 +79,39 @@ margin-top: 30px;
     
 }
 /* <!-- place banner here end --> */
+
+/* <!-- place service part here start --> */
+#service {
+   margin-top: 83px;
+}
+.serviceItem{
+padding: 63px 48px;
+border-radius: 10px;
+border: 1px solid #E3E3E3;
+}
+.serviceItem:hover{
+    box-shadow: webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.75);
+}
+.serviceItem h6{
+    font-weight: 700;
+font-size: 25px;
+color: var(--black);
+margin-top: 30px;
+}
+.serviceItem p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+color: var(--pera);
+margin-top: 20px;
+width: 274px;
+}
+.service_main{
+margin-top: 50px;
+}
+.servicerow{
+    row-gap: 30px;
+}       
+/* <!-- place service part here end --> */
