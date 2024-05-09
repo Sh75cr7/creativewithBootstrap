@@ -75,9 +75,6 @@ padding: 13px 22px;
 border-radius: 10px;
 margin-top: 30px;
 }
-#banner .img_area{
-    
-}
 /* <!-- place banner here end --> */
 
 /* <!-- place service part here start --> */
@@ -115,3 +112,53 @@ margin-top: 50px;
     row-gap: 30px;
 }       
 /* <!-- place service part here end --> */
+
+/* Our Work Portfolio start  */    
+
+#protfolio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.protfolio_item{
+    position: relative;
+    overflow: hidden;
+}
+.protfolio_item .overlay{
+    width: 230px;
+    height: 113px;
+    border-radius: 10px;
+    background: var(--primary);
+    bottom: -100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+    transition: .7s;
+}
+.protfolio_item .overlay h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--white);
+    margin-top:25px ;
+}
+/* Our Work Portfolio ending */
+.protfolio_item .overlay a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--white);
+    text-decoration: none;
+    margin-top: 10px;
+}
+.icons{
+    margin-left: 10px;
+}
+.protfolio_item:hover .overlay{
+    bottom: 19px;
+}
+.protfolioitem{
+    row-gap: 30px;
+    margin-top: 50px;
+}
+/* Our Work Portfolio ending */
