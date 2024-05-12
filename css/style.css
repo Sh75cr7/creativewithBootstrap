@@ -162,3 +162,40 @@ margin-top: 50px;
     margin-top: 50px;
 }
 /* Our Work Portfolio ending */
+
+/* <!-- Our Expert Team Member  start--> */
+.team_row{
+margin-top: 50px;
+margin-bottom: 142px;
+}
+.team_item{
+    position: relative;
+}
+.team_item .overlay{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg,#5956E8,rgba(255, 255, 255,0),rgba(255, 255, 255,0));
+    position: absolute;
+    /* opacity: 0.7; */
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.team_item .overlay h3{
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+.team_item .overlay h5{
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+
+/* <!-- Our Expert Team Member  end--> */
