@@ -199,3 +199,67 @@ margin-bottom: 142px;
 
 
 /* <!-- Our Expert Team Member  end--> */
+/* =====We Care About Our Customer Experience Too start */
+#customer .customer_item{
+  
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.75);
+   border-radius: 10px;
+   padding: 48px;
+   position: relative;
+
+}
+#customer .care_title h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--black);
+    width: 603px;
+}
+#customer .care_title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--pera);
+    width: 542px;
+    margin-top: 20px;
+}
+#customer ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+#customer ul li{
+    list-style: none;
+    display:inline-block;
+    color: #FBBF25;
+    margin-right: 8px;
+   
+}
+#customer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--black);
+    width: 274px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#customer .name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--black);
+    margin-top: 16px;
+}
+#customer h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5D5D5D;
+
+}
+#customer .qoute{
+    position: absolute;
+    bottom: 24px;
+    right: 30px;
+}
+/*==== We Care About Our Customer Experience Too end */
