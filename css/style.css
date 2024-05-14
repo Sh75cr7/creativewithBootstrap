@@ -319,3 +319,51 @@ margin-bottom: 142px;
     padding: 17px 19px 48px 17px;
 }
 /* Our Letest News ending */
+footer{
+    margin-top: 100px;
+    background: rgba(89, 86, 232,.10);
+    padding: 100px;
+}
+.footer__left__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    width: 300px;
+    color: var(--black);
+    margin-top: 15px;
+}
+.footer__icon{
+    gap: 24px;
+    margin-top: 31px;
+}
+.footer__icon_list{
+    text-decoration: none;
+}
+.footer__facebook__icon{
+    color: #337FFF;
+    
+}
+.footer__twiter__icon{
+    color: #33CCFF;
+}
+.footer__list__title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #181818;
+  margin-bottom: 15px;
+}
+.footer__list{
+    margin: 0;
+    padding: 0;
+}
+.footer__list__listItem{
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 400;
+    list-style: none;
+    
+}
+.footer__list__link{
+    text-decoration: none;
+    color: #5D5D5D;
+}
