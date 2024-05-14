@@ -263,3 +263,59 @@ margin-bottom: 142px;
     right: 30px;
 }
 /*==== We Care About Our Customer Experience Too end */
+/* Our Letest News start  */ 
+#latest{
+    margin-top: 142px;
+}
+.row__item{
+    margin-top: 50px;
+}
+.news__item__img{
+   margin-bottom: 18px;
+}
+.news__item__user{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5D5D5D;
+}
+.news__item__icon{
+    margin-top: 5px;
+    margin-right: 8px;
+    color: #5D5D5D;
+}
+.news__wrapper{
+    gap: 30px;
+    margin-left: 25px;
+}
+.news__item__h2{
+    font-weight: 600;
+    font-size: 20px;
+    width: 271px;
+    color: #181818;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.news__item__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5D5D5D;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.news__item__a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.news__item{
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    padding: 17px 19px 48px 17px;
+}
+/* Our Letest News ending */
